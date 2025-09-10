@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <SCRipt>
+        function changeContent(){
+            document.body.style.backgroundColor="beige";
+            
+
+            let para = document.getElementById("para");
+            para.textContent=
+            "paragraph has been changed sucessfully";
+
+        }
+    </SCRipt>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-center text-primary">javaScript demo</h2>
+      <p id="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam
+        repellendus est et iste facilis voluptates, ipsa eum nam mollitia
+        officiis labore dicta sequi consectetur non quia fuga saepe nobis. Lorem
+        ipsum dolor sit, amet consectetur adipisicing elit. Cumque obcaecati sed
+        nihil quae quos, harum ad deserunt alias culpa libero perferendis
+        aliquid fugiat atque est quas esse, optio distinctio 
+        <div class="text-center">
+          <img src="https://picsum.photos/200/300" alt="">
+        </div>
+        <div class="text-center mt-3"></div>
+        <button class="btn btn-lg text-white btn-primary "
+        onclick="changeContent()">change content
+
+        </button>
+      </p>
+    </div>
+  </body>
+</html>
